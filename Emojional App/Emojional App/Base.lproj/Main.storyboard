@@ -23,7 +23,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="79"/>
                                 <state key="normal" title="🥳"/>
                                 <connections>
-                                    <action selector="showMessage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4G7-xP-ggY"/>
+                                    <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Jie-xO-Bk1"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yYw-le-pWD">
@@ -31,7 +31,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="79"/>
                                 <state key="normal" title="😴"/>
                                 <connections>
-                                    <action selector="showMessage2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6o2-CD-Y9f"/>
+                                    <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="llJ-Jf-Mix"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yli-Oz-uG6">
@@ -39,7 +39,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="79"/>
                                 <state key="normal" title="🤪"/>
                                 <connections>
-                                    <action selector="showMessage3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GWG-4F-Lal"/>
+                                    <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EC0-iw-kYd"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wbh-6l-rwP">
@@ -47,7 +47,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="79"/>
                                 <state key="normal" title="🤮"/>
                                 <connections>
-                                    <action selector="showMessage4:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Fme-NK-9ne"/>
+                                    <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ryp-Sg-1Hd"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How are you" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1lr-eE-Ia5">
