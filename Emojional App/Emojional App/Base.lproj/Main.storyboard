@@ -22,21 +22,33 @@
                                 <rect key="frame" x="50" y="84" width="114" height="107"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="79"/>
                                 <state key="normal" title="🥳"/>
+                                <connections>
+                                    <action selector="showMessage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4G7-xP-ggY"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yYw-le-pWD">
                                 <rect key="frame" x="250" y="202" width="114" height="107"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="79"/>
                                 <state key="normal" title="😴"/>
+                                <connections>
+                                    <action selector="showMessage2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6o2-CD-Y9f"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yli-Oz-uG6">
-                                <rect key="frame" x="60" y="517.5" width="93" height="107"/>
+                                <rect key="frame" x="60" y="517" width="93" height="107"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="79"/>
                                 <state key="normal" title="🤪"/>
+                                <connections>
+                                    <action selector="showMessage3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GWG-4F-Lal"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wbh-6l-rwP">
-                                <rect key="frame" x="279" y="647.5" width="85" height="107"/>
+                                <rect key="frame" x="279" y="647" width="85" height="107"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="79"/>
                                 <state key="normal" title="🤮"/>
+                                <connections>
+                                    <action selector="showMessage4:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Fme-NK-9ne"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How are you" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1lr-eE-Ia5">
                                 <rect key="frame" x="80" y="335" width="262" height="42.5"/>
@@ -47,7 +59,7 @@
                                 <color key="highlightedColor" red="1" green="0.66041832710000004" blue="0.56710444250000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="feeling today?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ldW-oT-IIL">
-                                <rect key="frame" x="80" y="428" width="262" height="43"/>
+                                <rect key="frame" x="80" y="428" width="262" height="42.5"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="39"/>
                                 <color key="textColor" red="1" green="0.66041832710000004" blue="0.56710444250000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="highlightedColor" red="1" green="0.66041832710000004" blue="0.56710444250000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
