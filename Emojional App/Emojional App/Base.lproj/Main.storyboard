@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="portrait">
+    <device id="retina6_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -27,7 +27,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yli-Oz-uG6">
-                                <rect key="frame" x="37" y="517.5" width="85" height="107"/>
+                                <rect key="frame" x="37" y="517.66666666666663" width="85" height="107"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="79"/>
                                 <state key="normal" title="🤪"/>
                                 <connections>
@@ -35,7 +35,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wbh-6l-rwP">
-                                <rect key="frame" x="313" y="564.5" width="85" height="107"/>
+                                <rect key="frame" x="313" y="564.66666666666663" width="85" height="107"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="79"/>
                                 <state key="normal" title="🤮"/>
                                 <connections>
@@ -43,17 +43,18 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How are you" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1lr-eE-Ia5">
-                                <rect key="frame" x="80" y="335" width="262" height="42.5"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <rect key="frame" x="80" y="335" width="262" height="42.666666666666686"/>
+                                <color key="backgroundColor" red="0.03329157829284668" green="0.14342594146728516" blue="0.5541800856590271" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="39"/>
-                                <color key="textColor" red="0.95747476816177368" green="0.66047650575637817" blue="0.57003635168075562" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.99893850088119507" green="0.96330982446670532" blue="0.37215957045555115" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="highlightedColor" red="1" green="0.66041832710000004" blue="0.56710444250000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="feeling today?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ldW-oT-IIL">
-                                <rect key="frame" x="70" y="428" width="273" height="43"/>
+                                <rect key="frame" x="70" y="428.33333333333331" width="273" height="43"/>
+                                <color key="backgroundColor" red="0.92687219381332397" green="0.26347476243972778" blue="0.5523064136505127" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="39"/>
-                                <color key="textColor" red="1" green="0.66041832710000004" blue="0.56710444250000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.99893850088119507" green="0.96330982446670532" blue="0.37215957045555115" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="highlightedColor" red="1" green="0.66041832710000004" blue="0.56710444250000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6uv-KE-3TQ">
@@ -65,7 +66,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="0.95542022167075136" blue="0.88762248611427486" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.99998694658279419" green="0.92975229024887085" blue="0.30988302826881409" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="yYw-le-pWD" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="158" id="0My-LK-k8T"/>
                             <constraint firstItem="ldW-oT-IIL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="70" id="4je-HU-mwa"/>
