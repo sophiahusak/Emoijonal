@@ -18,16 +18,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6uv-KE-3TQ">
-                                <rect key="frame" x="50" y="84" width="114" height="107"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="79"/>
-                                <state key="normal" title="🥳"/>
-                                <connections>
-                                    <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Jie-xO-Bk1"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yYw-le-pWD">
-                                <rect key="frame" x="250" y="202" width="114" height="107"/>
+                                <rect key="frame" x="291" y="202" width="85" height="107"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="79"/>
                                 <state key="normal" title="😴"/>
                                 <connections>
@@ -35,7 +27,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yli-Oz-uG6">
-                                <rect key="frame" x="60" y="517" width="93" height="107"/>
+                                <rect key="frame" x="37" y="517.5" width="85" height="107"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="79"/>
                                 <state key="normal" title="🤪"/>
                                 <connections>
@@ -43,7 +35,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wbh-6l-rwP">
-                                <rect key="frame" x="279" y="647" width="85" height="107"/>
+                                <rect key="frame" x="313" y="564.5" width="85" height="107"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="79"/>
                                 <state key="normal" title="🤮"/>
                                 <connections>
@@ -59,39 +51,43 @@
                                 <color key="highlightedColor" red="1" green="0.66041832710000004" blue="0.56710444250000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="feeling today?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ldW-oT-IIL">
-                                <rect key="frame" x="80" y="428" width="262" height="42.5"/>
+                                <rect key="frame" x="70" y="428" width="273" height="43"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="39"/>
                                 <color key="textColor" red="1" green="0.66041832710000004" blue="0.56710444250000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="highlightedColor" red="1" green="0.66041832710000004" blue="0.56710444250000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6uv-KE-3TQ">
+                                <rect key="frame" x="37" y="84" width="85" height="107"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="79"/>
+                                <state key="normal" title="🥳"/>
+                                <connections>
+                                    <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Jie-xO-Bk1"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.95542022167075136" blue="0.88762248611427486" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="yYw-le-pWD" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="158" id="0My-LK-k8T"/>
+                            <constraint firstItem="ldW-oT-IIL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="70" id="4je-HU-mwa"/>
+                            <constraint firstItem="yli-Oz-uG6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="37" id="68Y-3p-fit"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="wbh-6l-rwP" secondAttribute="trailing" constant="16" id="8Ap-Ax-fZ9"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="yYw-le-pWD" secondAttribute="trailing" constant="38" id="AeR-sx-y9E"/>
                             <constraint firstItem="1lr-eE-Ia5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="80" id="Her-W4-QfD"/>
-                            <constraint firstItem="ldW-oT-IIL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="80" id="LVN-42-erw"/>
+                            <constraint firstItem="6uv-KE-3TQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="37" id="KVl-MH-fMu"/>
                             <constraint firstItem="1lr-eE-Ia5" firstAttribute="top" secondItem="yYw-le-pWD" secondAttribute="bottom" constant="26" id="M7x-wd-cui"/>
-                            <constraint firstItem="6uv-KE-3TQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="MWq-v4-W0h"/>
-                            <constraint firstItem="yli-Oz-uG6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="60" id="MyQ-aH-Bf5"/>
                             <constraint firstItem="6uv-KE-3TQ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="PYA-k7-S0e"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="yYw-le-pWD" secondAttribute="trailing" constant="50" id="UVB-Qf-XB6"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="wbh-6l-rwP" secondAttribute="trailing" constant="50" id="Xfx-8o-crS"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="6uv-KE-3TQ" secondAttribute="trailing" constant="250" id="ZNB-4v-h42"/>
-                            <constraint firstItem="yYw-le-pWD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="250" id="aog-eG-DnK"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ldW-oT-IIL" secondAttribute="trailing" constant="72" id="coY-SK-iu0"/>
-                            <constraint firstItem="wbh-6l-rwP" firstAttribute="top" secondItem="ldW-oT-IIL" secondAttribute="bottom" constant="176.5" id="mRZ-Pn-8Gi"/>
+                            <constraint firstItem="wbh-6l-rwP" firstAttribute="top" secondItem="ldW-oT-IIL" secondAttribute="bottom" constant="93.5" id="aJd-6g-SBh"/>
                             <constraint firstItem="ldW-oT-IIL" firstAttribute="top" secondItem="1lr-eE-Ia5" secondAttribute="bottom" constant="50.5" id="mlE-Hp-URp"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="1lr-eE-Ia5" secondAttribute="trailing" constant="72" id="n6G-73-oaW"/>
                             <constraint firstItem="yli-Oz-uG6" firstAttribute="top" secondItem="ldW-oT-IIL" secondAttribute="bottom" constant="46.5" id="qwX-oL-33E"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="yli-Oz-uG6" secondAttribute="trailing" constant="261" id="xlB-Et-nQ0"/>
-                            <constraint firstItem="wbh-6l-rwP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="279" id="zV1-28-42c"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ldW-oT-IIL" secondAttribute="trailing" constant="71" id="rK6-GH-N7u"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-57.971014492753625" y="115.84821428571428"/>
+            <point key="canvasLocation" x="-58.399999999999999" y="115.59220389805098"/>
         </scene>
     </scenes>
 </document>
